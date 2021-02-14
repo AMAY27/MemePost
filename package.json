@@ -20,9 +20,9 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "cd src && npm run build",
+    "build": "cd src && yarn build",
     "install-src": "cd src && npm install",
-    "heroku-postbuild": "npm run install-src && npm run build",
+    "heroku-postbuild": "npm run install-src && yarn build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
